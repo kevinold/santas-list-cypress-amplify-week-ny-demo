@@ -1,0 +1,11 @@
+type Kid @model {
+  id: ID!
+  name: String!
+  gifts: [Gift] @connection(name: "KidGifts")
+}
+
+type Gift @model {
+  id: ID!
+  description: String!
+  kid: Kid @connection(name: "KidGifts")
+}
