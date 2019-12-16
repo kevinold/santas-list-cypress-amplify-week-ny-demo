@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App with Cypress](https://github.com/cypress-io/cra-template-cypress) and uses [AWS Amplify](https://aws-amplify.github.io/).
 
+![Cypress AWS Amplify Santa's List Demo](santas-list-demo.gif)
 
 # Installation
 
